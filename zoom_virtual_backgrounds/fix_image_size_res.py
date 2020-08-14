@@ -21,7 +21,8 @@ from PIL import Image
 imfile='Cambodia.jpg'
 # open desired image
 img = Image.open(imfile)
-width, height = 1920, 800
+# 768 is the height of the original image
+width, height = 1920, 768
 # resize desired images
 img.thumbnail((width, height),Image.ANTIALIAS)
 # make black background of size from image that fits well
@@ -31,7 +32,7 @@ background = Image.new('RGB', (width, height))
 w,h=img.size
 background.paste(img, (int((width-w)/2),int((height-h)/2)))
 # save
-background.save("cambodia800h.jpg")
+background.save("cambodia768h.jpg")
 
 
 #width, height = 1920, 1080
