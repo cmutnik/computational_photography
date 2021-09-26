@@ -1,4 +1,5 @@
 *.pyc
+.idea
 TODO.txt
 .DS_Store
 */.DS_Store
