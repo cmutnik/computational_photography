@@ -10,8 +10,9 @@
 
 ----
 In order to generate the stacked image:
+
 <img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="200"/>
 
 The following 4 images were iterated through, using [`image.stacking.script.py`](./image.stacking.script.py).
 
-<img src="../figs/image_stacking/G0020185.JPG" alt="drawing" width="200"/><img src="../figs/image_stacking/G0020186.JPG" alt="drawing" width="200"/><img src="../figs/image_stacking/G0020187.JPG" alt="drawing" width="200"/><img src="../figs/image_stacking/G0020188.JPG" alt="drawing" width="200"/>
+<img src="../figs/image_stacking/G0020185.JPG" alt="drawing" width="200"/> <img src="../figs/image_stacking/G0020186.JPG" alt="drawing" width="200"/> <img src="../figs/image_stacking/G0020187.JPG" alt="drawing" width="200"/> <img src="../figs/image_stacking/G0020188.JPG" alt="drawing" width="200"/>
