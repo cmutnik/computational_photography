@@ -9,12 +9,16 @@ import numpy as np
 
 
 # CHANGE IF NOT PNG
-imgList = glob.glob('./*.JPG')
+imgList = glob.glob("./*.JPG")
 
 first = True
 for i in imgList:
-    temp = np.array(Image.open(i)) #overcome overflow (pixel values between 0-255) by making array
-    temp = temp.astype('uint32')   #1000 photos- 255*1000=255,000...unit32 hold 0-4294967295
+    temp = np.array(
+        Image.open(i)
+    )  # overcome overflow (pixel values between 0-255) by making array
+    temp = temp.astype(
+        "uint32"
+    )  # 1000 photos- 255*1000=255,000...unit32 hold 0-4294967295
     # make new variable to hold sum, or add current image to summed image
     if first:
         sumImage = temp
@@ -23,11 +27,10 @@ for i in imgList:
         sumImage = sumImage + temp
 
 # calc avg image...CAST AS FLOAT?????
-avgArray = sumImage/len(imgList)
+avgArray = sumImage / len(imgList)
 
 # convert back to unit8 data type then into PIL class
-avgImg = Image.fromarray(avgArray.astype('uint8'))
+avgImg = Image.fromarray(avgArray.astype("uint8"))
 
-#avgImg.show()
-avgImg.save('_stack_all_'+ str(len(imgList)) +'.JPG')
-
+# avgImg.show()
+avgImg.save("_stack_all_" + str(len(imgList)) + ".JPG")
