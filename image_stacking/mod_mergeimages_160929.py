@@ -1,4 +1,4 @@
-# https://bespokeblog.wordpress.com/category/programming/python/
+#!/bin/python
 import sys
 from PIL import Image
 import glob

@@ -1,4 +1,4 @@
-# http://onlyjus-photopy.blogspot.com/
+#!/bin/python
 from PIL import Image, ImageChops
 import glob
 
