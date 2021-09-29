@@ -1,14 +1,8 @@
-# Image Stacking Script from
-# http://onlyjus-photopy.blogspot.com/2012/09/image-stacking.html
-# may wanna also try subtracting frames as shown on site
-
-
+#!/bin/python
 from PIL import Image
 import glob
 import numpy as np
 
-
-# CHANGE IF NOT PNG
 imgList = glob.glob("./*.JPG")
 
 first = True
@@ -26,11 +20,7 @@ for i in imgList:
     else:
         sumImage = sumImage + temp
 
-# calc avg image...CAST AS FLOAT?????
 avgArray = sumImage / len(imgList)
-
-# convert back to unit8 data type then into PIL class
 avgImg = Image.fromarray(avgArray.astype("uint8"))
 
-# avgImg.show()
 avgImg.save("_stack_all_" + str(len(imgList)) + ".JPG")

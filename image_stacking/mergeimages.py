@@ -1,7 +1,6 @@
-# https://bespokeblog.wordpress.com/category/programming/python/
+#!/bin/python
 import sys
 from PIL import Image
-
 
 def imageblend(imdir, numimages=54, blendwidth=0):
     if not blendwidth % 2 == 0:
