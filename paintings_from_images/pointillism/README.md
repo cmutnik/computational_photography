@@ -4,7 +4,7 @@ This repo contains a python application that converts a photo to a pointillist p
 You can find information about the algorithm here.](https://medium.com/@matteoronchetti/https-medium-com-matteoronchetti-pointillism-with-python-and-opencv-f4274e6bbb7b)
 
 ----
-## Execution ##
+## Usage ##
 Python 3.8 environment needed for specific opencv version.  Steps to run code:
 1. ```sh
     pip install -r requirements.txt
