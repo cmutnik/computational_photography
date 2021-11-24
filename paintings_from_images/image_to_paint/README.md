@@ -1,26 +1,32 @@
-# image-to-paint
+# image-to-paint #
 
-Generate a series of brushstrokes from an image. There are several parameters to vary the style and can also export GCODE for plotting.
+Generate a series of brush-strokes from an image. There are several parameters to vary the style and can also export GCODE for plotting.
 
-This is a cleanup of an old school project from 2012. There are many code and methode improvments to be made.
+This is a cleanup of an old school project from 2012. There are many code and method improvements to be made.
 
 Requires pygame and PIL
 
-## Examples
+----
+## Usage ##
 
-```
- ./imageToPaint example/apple.jpg apple_out.jpg --brushes 2 4 
-```
-
-
-```
- ./imageToPaint example/humanoid.jpg humanoid_out.jpg --brushes 4 8
-
+```sh
+./imageToPaint ../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg ../../figs/paintings/IMG_3477_1_image_to_paint.jpg --brushes 2 4 8 --f_l 0.25
 ```
 
+```sh
+./imageToPaint ../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg IMG_3477_1_image_to_paint.jpg --brushes 4 8
+```
 
-## Other options
-./imageToPaint -h
+----
+## Example ##
+
+<img src="../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="40%">
+<img src="../../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="40%">
+
+
+----
+## Other options ##
+`./imageToPaint -h`
 
 ```
 usage: imageToPaint    [-h] [--brushes BRUSHES [BRUSHES ...]]
