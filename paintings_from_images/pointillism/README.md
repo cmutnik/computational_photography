@@ -13,4 +13,4 @@ Python 3.8 environment needed for specific opencv version.  Steps to run code:
     python main.py --stroke-scale=0 --palette-size=48 --stroke-scale=2 --gradient-smoothing-radius=0
     ```
 
-<img src="../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="50%" height="50%"> <img src="../../figs/paintings/IMG_3477_1_drawing.jpg" width="50%" height="50%">
+<img src="../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="40%"> <img src="../../figs/paintings/IMG_3477_1_drawing.jpg" width="40%">
