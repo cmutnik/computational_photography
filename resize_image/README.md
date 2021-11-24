@@ -2,8 +2,6 @@
 
 Python script [`resize.py`](./resize.py) allows resizing of all images in designated directory.
 
-[`Resize_no_args.py`](./Resize_no_args.py) serves as legacy script until all testing is complete.
-
 ----
 ## Usage ##
 
