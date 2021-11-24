@@ -6,7 +6,9 @@ You can find information about the algorithm here.](https://medium.com/@matteoro
 ----
 ## Execution ##
 Python 3.8 environment needed for specific opencv version.  Steps to run code:
-```
-pip install -r requirements.txt
-python main.py --stroke-scale=0 --palette-size=48 --stroke-scale=2 --gradient-smoothing-radius=0
-```
+1. ```sh
+    pip install -r requirements.txt
+    ```
+2. ```sh
+    python main.py --stroke-scale=0 --palette-size=48 --stroke-scale=2 --gradient-smoothing-radius=0
+    ```
