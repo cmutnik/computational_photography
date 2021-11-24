@@ -9,7 +9,7 @@ parser.add_argument('--palette-size', default=20, type=int, help="Number of colo
 parser.add_argument('--stroke-scale', default=0, type=int, help="Scale of the brush strokes (0 = automatic)")
 parser.add_argument('--gradient-smoothing-radius', default=0, type=int, help="Radius of the smooth filter applied to the gradient (0 = automatic)")
 parser.add_argument('--limit-image-size', default=0, type=int, help="Limit the image size (0 = no limits)")
-parser.add_argument('img_path', nargs='?', default="../../figs/image_stacking/G0020185.JPG")
+parser.add_argument('img_path', nargs='?', default="../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg")
 
 args = parser.parse_args()
 
