@@ -24,7 +24,8 @@ def lockgen(canvas,ym,yp,xm,xp):
     # if riding:
     #     reutrn canvaslock:
     pass
-def load(filename='flower.jpg'):
+# def load(filename='flower.jpg'):
+def load(filename="../../figs/paintings/flower.jpg"):
     print('loading',filename,'...')
     global imname,flower,canvas,hist
     global rescale,xs_small,ys_small,smallerflower

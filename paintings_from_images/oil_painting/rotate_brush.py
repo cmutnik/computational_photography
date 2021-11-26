@@ -338,7 +338,8 @@ def compose(orig,brush,x,y,rad,srad,angle,color,usefloat=False,useoil=False,lock
         # if canvas lock provided, release it. this prevents overwrite problems
 
 def test(onlyfloat=False,onlyoil=False):
-    flower = cv2.imread('flower.jpg')
+    # flower = cv2.imread('flower.jpg')
+    flower = cv2.imread("DB9A4597.JPG")
     if not onlyfloat:
         fint = flower.copy()
         for i in range(100):
