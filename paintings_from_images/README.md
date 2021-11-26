@@ -9,7 +9,8 @@
 ├── pointillism/
 │   └── main.py
 └── scripts/
-    └── cartoonify.py
+    ├── cartoonify/
+    └── sketch_edges.py
 ```
 
 > <img src="../figs/paintings/IMG_3477_1_drawing.jpg" width="5%"> [pointillism/](./pointillism/) creates a painting of the style the dir is named for.
@@ -19,6 +20,8 @@
 > <img src="../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="5%"> [image_to_paint/](./image_to_paint/) generates images to look as if the are being built up by brush strokes.
 
 > <img src="../../../figs/paintings/IMG_3477_1_cartoonified.png" width="5%"> [cartoonify/](./scripts/cartoonify/) turns an image into a cartoon style drawing, using k-means clustering.
+
+> <img src="../figs/paintings/IMG_3477_1_sketch_edges.jpg" width="5%"> [sketch_edges.py](./scripts/sketch_edges.py) uses cv2 edge detect and a Gaussian blur.
 
 ----
 ## Other Resources ##
