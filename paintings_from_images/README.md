@@ -20,9 +20,9 @@
 ----
 ## Other Resources ##
 
-> The neural nets used in [runwayml](https://app.runwayml.com/) need to be optimized using newer techniques, but are overall pretty great.  A free account allows you to modify images and videos in a variety of styles.  Their source code is linked for each model, to test it out go ro [adaptive-style-transfer.](https://github.com/CompVis/adaptive-style-transfer)
+> The neural nets used in [runwayml](https://app.runwayml.com/) need to be optimized using newer techniques, but are overall pretty great.  A free account allows you to modify images and videos in a variety of styles.  Their source code is linked for each model, to test it out go to [adaptive-style-transfer.](https://github.com/CompVis/adaptive-style-transfer)
 
 
 > [stylized-neural-painting](https://github.com/jiupinjia/stylized-neural-painting) can be cloned [here.](https://github.com/jiupinjia/stylized-neural-painting)
 
-> [](https://github.com/ctmakro/opencv_playground) can be cloned [here.](https://github.com/ctmakro/opencv_playground)
+> [oil_painting](https://github.com/ctmakro/opencv_playground) can be cloned [here.](https://github.com/ctmakro/opencv_playground)
