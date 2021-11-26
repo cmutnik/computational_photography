@@ -94,7 +94,6 @@ def Canny_detector(img, weak_th = None, strong_th = None):
     return mag
 
 if __name__ == "__main__":
-    # frame = cv2.imread("../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg")
     frame = cv2.imread(args.img_path)
     canny_img = Canny_detector(frame, args.weak_thresh, args.strong_thresh)
-    cv2.imwrite("../../figs/paintings/IMG_3477_1_charcoal.jpg", canny_img)
+    cv2.imwrite(args.output_path, canny_img)
