@@ -6,8 +6,10 @@
 │   └── imageToPaint
 ├── oil_painting/
 │   └── painterfun.py
-└── pointillism/
-    └── main.py
+├── pointillism/
+│   └── main.py
+└── scripts/
+    └── cartoonify.py
 ```
 
 > <img src="../figs/paintings/IMG_3477_1_drawing.jpg" width="5%"> [pointillism/](./pointillism/) creates a painting of the style the dir is named for.
@@ -16,6 +18,7 @@
 
 > <img src="../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="5%"> [image_to_paint/](./image_to_paint/) generates images to look as if the are being built up by brush strokes.
 
+> <img src="../../../figs/paintings/IMG_3477_1_cartoonified.png" width="5%"> [cartoonify/](./scripts/cartoonify/) turns an image into a cartoon style drawing, using k-means clustering.
 
 ----
 ## Other Resources ##
