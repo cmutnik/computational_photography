@@ -10,11 +10,11 @@
     └── main.py
 ```
 
-> [pointillism/](./pointillism/) creates a painting of the style the dir is named for. <img src="../figs/paintings/IMG_3477_1_drawing.jpg" width="5%">
+> <img src="../figs/paintings/IMG_3477_1_drawing.jpg" width="5%"> [pointillism/](./pointillism/) creates a painting of the style the dir is named for.
 
-> [oil_painting](./oil_painting/) is originally from [here](https://github.com/ctmakro/opencv_playground) and is used to turn photos into oil paintings. <img src="../figs/paintings/flower_oilpainted.jpg" width="5%">
+> <img src="../figs/paintings/flower_oilpainted.jpg" width="5%"> [oil_painting](./oil_painting/) is originally from [here](https://github.com/ctmakro/opencv_playground) and is used to turn photos into oil paintings.
 
-> [image_to_paint/](./image_to_paint/) generates images to look as if the are being built up by brush strokes. <img src="../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="5%">
+> <img src="../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="5%"> [image_to_paint/](./image_to_paint/) generates images to look as if the are being built up by brush strokes.
 
 
 ----
