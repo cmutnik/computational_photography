@@ -10,6 +10,7 @@
 │   └── main.py
 └── scripts/
     ├── cartoonify/
+    ├── charcoal_drawing_edge_detect.py
     └── sketch_edges.py
 ```
 
@@ -20,6 +21,8 @@
 > <img src="../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="5%"> [image_to_paint/](./image_to_paint/) generates images to look as if the are being built up by brush strokes.
 
 > <img src="../figs/paintings/IMG_3477_1_cartoonified.png" width="5%"> [cartoonify/](./scripts/cartoonify/) turns an image into a cartoon style drawing, using k-means clustering.
+
+> <img src="../figs/paintings/IMG_3477_1_charcoal.jpg" width="5%"> [charcoal_drawing_edge_detect.py](./scripts/charcoal_drawing_edge_detect.py) turn photos into charcoal drawings using canny edge detection.
 
 > <img src="../figs/paintings/IMG_3477_1_sketch_edges.jpg" width="5%"> [sketch_edges.py](./scripts/sketch_edges.py) uses cv2 edge detect and a Gaussian blur.
 
