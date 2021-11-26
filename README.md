@@ -11,6 +11,7 @@ This will serve as a repository for:
 ├── figs/
 ├── image_stacking/
 ├── paintings_from_images/
+├── resize_image/
 ├── time_slice/
 ├── time_slice_tile_mosaic/
 ├── video_editing/
@@ -26,6 +27,8 @@ This will serve as a repository for:
 > [`image_stacking/`](./image_stacking/): Python scripts for stacking multiple images into into one.
 
 > [`paintings_from_images/`](./paintings_from_images/): Various methods of turning photographs into paintings.
+
+> [`resize_image`](./resize_image/): Python script for resizing input images.
 
 > [`time_slice/`](./time_slice/): (Outdated and incomplete dir.)
 

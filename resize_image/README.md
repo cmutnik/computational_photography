@@ -24,7 +24,7 @@ python resize.py -i "./foo/bar/*" -o herebb -sf 0.5 -oe jpg -ee c -ee b
 ## Other Options ##
 `python resize.py -h`
 
-```sh
+```
 usage: resize.py [-h] [-i str] [-o str] [-sf float] [-oe str] [-ee list of strings]
 
 Resize Images
