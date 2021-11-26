@@ -2,6 +2,15 @@
 
 Simple script to make ascii art out of an image.  There are a lot of necessary modifications needed.
 
+Another useful resource, from [pythonawesome,](https://pythonawesome.com/converting-images-into-text-using-the-95-printable-characters-defined-by-the-ascii-standard/) can be found [here.](https://github.com/zero-to-mastery/ascii-art-2021)
+
+----
+## Usage ##
+`python ascii_art.txt`
+
+----
+## Example ##
+
 ```
 +++++++^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^+++^+++^^^^^++^^++++^+++++++++++******************?
 +++++++++++^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^+^^+++++++++++^^^^^+++^++++++++++++++*+******************?

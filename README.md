@@ -6,6 +6,7 @@ This will serve as a repository for:
 
 ```
 .
+├── ascii_art/
 ├── boarders_and_thumbnails/
 ├── compress_images/
 ├── figs/
@@ -18,6 +19,8 @@ This will serve as a repository for:
 └── zoom_virtual_backgrounds/
 ```
 
+> [`ascii_art/`](./ascii_art/): Simple python script to convert an image to ascii art (needs much refining).
+
 > [`boarders_and_thumbnails/`](./boarders_and_thumbnails/): Python scripts for adding boarders to images and generating thumbnails.
 
 > [`compress_images/`](./compress_images/): Python script for compressing images, to save github storage space.
@@ -28,7 +31,7 @@ This will serve as a repository for:
 
 > [`paintings_from_images/`](./paintings_from_images/): Various methods of turning photographs into paintings.
 
-> [`resize_image`](./resize_image/): Python script for resizing input images.
+> [`resize_image/`](./resize_image/): Python script for resizing input images.
 
 > [`time_slice/`](./time_slice/): (Outdated and incomplete dir.)
 
