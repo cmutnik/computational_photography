@@ -14,6 +14,10 @@ parser.add_argument("-o", "--output_video", type=str, default=r"./thumbnails/fin
                     help="file path to save video results (default: ./thumbnails/final_pic_to_vid.mp4)")
 parser.add_argument("-f", "--fps", type=float, default=1.15, metavar="float",
                     help="fps rate of exported video (default: 1.15)")
+parser.add_argument("-x", "--x_resize_dim", type=int, default=1000, metavar="int",
+                    help="x dimension to be used in resizing images and adding boarder (default: 1000)")
+parser.add_argument("-y", "--y_resize_dim", type=int, default=1000, metavar="int",
+                    help="y dimension to be used in resizing images and adding boarder (default: 1000)")
 args = parser.parse_args()
 
 def mkdir_if_it_dne(path):
@@ -23,19 +27,19 @@ def mkdir_if_it_dne(path):
     else:
         pass
 
-def convert_images_to_thumbnails(img_path, outname):
+def convert_images_to_thumbnails(img_path, outname, x, y):
     img = Image.open(img_path)
-    img.thumbnail([500, 500], Image.ANTIALIAS)
+    img.thumbnail([x, y], Image.ANTIALIAS)
     # img.save(outname)
     return img
 
-def add_background_to_image(inFilename, outFilename):
+def add_background_to_image_to_standardize_sizes(inFilename, outFilename, x, y):
     if isinstance(inFilename, str):
         img = Image.open(inFilename)
     else:
         img = inFilename
     # x1, y1, x2, y2 = -5, -5, 1000, 1000  # cropping coordinates
-    x1, y1, x2, y2 = 0, 0, 500, 333
+    x1, y1, x2, y2 = 0, 0, x, y
     im = Image.new("RGB", (x2 - x1, y2 - y1), (0, 0, 0))
     im.paste(img, (-x1, -y1))
     im.save(outFilename)
@@ -49,6 +53,7 @@ if __name__ == "__main__":
     thumbnail_dir = args.thumbnail_dir
     output_video = args.output_video
     fps = args.fps
+    x, y = args.x_resize_dim, args.y_resize_dim
 
     mkdir_if_it_dne(thumbnail_dir)
     # input_images = [x for x in os.walk(SAMPLE_INPUT_IMAGE_SET) if fname.endswith("jpg")]
@@ -62,10 +67,11 @@ if __name__ == "__main__":
                 print(f"{outname} already exists, no thumbnail made")
             else:
                 try:
-                    img = convert_images_to_thumbnails(filepath, outname)
-                    add_background_to_image(img, outname)
+                    img = convert_images_to_thumbnails(filepath, outname, x, y)
+                    add_background_to_image_to_standardize_sizes(img, outname, x, y)
                 except Exception as e:
-                    print(e.message, e.args)
+                    # print(e.message, e.args)
+                    print(f"failed to use: {filepath}")
     this_dir = os.listdir(thumbnail_dir)
     filepaths = [os.path.join(thumbnail_dir, fname) for fname in this_dir if fname.endswith("jpg")]
 
