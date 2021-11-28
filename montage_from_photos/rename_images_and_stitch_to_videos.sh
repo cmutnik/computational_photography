@@ -34,11 +34,7 @@ function rename_files(){	# rename images to fit desired convention
 
 function make_animation(){
     # ffmpeg -f image2 -i ./testall/img%03d.JPG -loop -1 out1.gif -y
-    # ffmpeg -f image2 -i ./testall/img%03d.jpg -c:v libx264 -pix_fmt yuv420p out2.mp4 -y
-    # ffmpeg -f image2 -r 6 -i ./testall/img%03d.jpg -c:v libx264 -pix_fmt yuv420p out3.mp4 -y
     ffmpeg -f image2 -r 4 -i ./testall/img%03d.jpg -c:v libx264 -pix_fmt yuv420p out3.mp4 -y
-    # ffmpeg -f image2 -i ./testall/img%03d.jpg -c:v libx264 -pix_fmt yuv420p out4.mp4 -y
-    # ffmpeg -i ./testall/img%03d.jpg -c:v libx264 -pix_fmt yuv420p out5.mp4 -y
     # ffmpeg -f image2 -i ./testall/img%03d.jpg -c:v libx264 -pix_fmt yuv420p -r 2 out6.mp4 -y
 }
 
