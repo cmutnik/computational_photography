@@ -1,9 +1,9 @@
 #!/bin/python
 
 from moviepy.editor import ImageSequenceClip
+from tqdm import tqdm
 from PIL import Image
 import argparse, os
-from tqdm import tqdm
 
 parser = argparse.ArgumentParser(description="Convert Photoset to Video Montage")
 parser.add_argument("-i", "--img_path", type=str, default=r"./testall/", metavar="str",
