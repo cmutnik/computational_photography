@@ -8,3 +8,7 @@ TODO.txt
 */*/*/*/.DS_Store
 */*/*/*/*/.DS_Store
 */*/*/*/*/*/.DS_Store
+
+# specific dirs
+./montage_from_photos/testall
+./montage_from_photos/thumbnails
