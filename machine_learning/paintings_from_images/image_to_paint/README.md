@@ -10,17 +10,17 @@ Requires pygame and PIL
 ## Usage ##
 
 ```sh
-./imageToPaint ../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg ../../figs/paintings/IMG_3477_1_image_to_paint.jpg --brushes 2 4 8 --f_l 0.25
+./imageToPaint ../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg ../../../figs/paintings/IMG_3477_1_image_to_paint.jpg --brushes 2 4 8 --f_l 0.25
 ```
 
 ```sh
-./imageToPaint ../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg IMG_3477_1_image_to_paint.jpg --brushes 4 8
+./imageToPaint ../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg IMG_3477_1_image_to_paint.jpg --brushes 4 8
 ```
 
 ----
 ## Example ##
 
-<img src="../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="40%"> <img src="../../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="40%">
+<img src="../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="40%"> <img src="../../../figs/paintings/IMG_3477_1_image_to_paint.jpg" width="40%">
 
 
 ----
