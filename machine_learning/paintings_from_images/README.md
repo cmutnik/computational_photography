@@ -27,7 +27,7 @@
 
 > <img src="../../figs/paintings/IMG_3477_1_sketch_edges.jpg" width="5%"> [sketch_edges.py](./scripts/sketch_edges.py) uses cv2 edge detect and a Gaussian blur.
 
-> <img src="../../figs/paintings/IMG_3477_1_color_pencil_color.png" width="5%"> <img src="../figs/paintings/IMG_3477_1_water_color_painting.png" width="5%"> [color_pencil_and_water_colors.py](./scripts/color_pencil_and_water_colors.py) makes color pencil sketches out of photos.
+> <img src="../../figs/paintings/IMG_3477_1_color_pencil_color.png" width="5%"> <img src="../../figs/paintings/IMG_3477_1_water_color_painting.png" width="5%"> [color_pencil_and_water_colors.py](./scripts/color_pencil_and_water_colors.py) makes color pencil sketches out of photos.
 
 ----
 ## Other Resources ##
