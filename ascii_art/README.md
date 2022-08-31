@@ -2,7 +2,7 @@
 
 Simple script to make ascii art out of an image.  There are a lot of necessary modifications needed.
 
-Another useful resource, from [pythonawesome,](https://pythonawesome.com/converting-images-into-text-using-the-95-printable-characters-defined-by-the-ascii-standard/) can be found [here.](https://github.com/zero-to-mastery/ascii-art-2021)
+Another useful resource, from [pythonawesome,](https://pythonawesome.com/converting-images-into-text-using-the-95-printable-characters-defined-by-the-ascii-standard/) can be found [here.](https://github.com/zero-to-mastery/ascii-art-2021)  The last link has scripts for generating ascii art similar to what is shown below as well as animated art that is displayed inside terminal.
 
 ----
 ## Usage ##
