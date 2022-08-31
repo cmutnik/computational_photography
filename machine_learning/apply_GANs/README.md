@@ -1,6 +1,7 @@
 # Generative Adversarial Network (GAN) #
 Use GANs to convert images to anime style animations.  The models currently implemented here were trained on, and therefore work best on, images of human faces.
 
+The following notebooks is from [here.](https://github.com/bryandlee/animegan2-pytorch)  
 [face_to_Anime_with_AnimeGANv2.ipynb](./notebooks/face_to_Anime_with_AnimeGANv2.ipynb) shows how a pre-trained GAN can be applied to desired images.  This notebook was run in colab with the files designated locally.  Smaller image files stored remotely can be used by changing by altering the local filenames:
 ```py
 # designate filenames for locally saved copies
