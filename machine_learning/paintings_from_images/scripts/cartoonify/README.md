@@ -22,9 +22,9 @@ optional arguments:
   -h, --help            show this help message and exit
   -i str, --img_path str
                         paths to input image (default:
-                        '../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg')
+                        '../../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg')
   -o str, --output_dir str
-                        dir to save resized image results (default: ../../../figs/paintings/)
+                        dir to save resized image results (default: ../../../../figs/paintings/)
   -l int, --line_size int
                         line size to be used (default: 7)
   -b int, --blur_value int
@@ -36,4 +36,4 @@ optional arguments:
 ----
 ## Example ##
 
-<img src="../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="40%"> <img src="../../../figs/paintings/IMG_3477_1_cartoonified.png" width="40%">
+<img src="../../../../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" width="40%"> <img src="../../../../figs/paintings/IMG_3477_1_cartoonified.png" width="40%">

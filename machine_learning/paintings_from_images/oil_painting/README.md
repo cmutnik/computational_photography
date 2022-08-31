@@ -17,4 +17,4 @@ A more detailed description of the underlying code can be found [here.](https://
 
 ----
 ## Example ##
-<img src="../../figs/paintings/flower.jpg" width="40%"> <img src="../../figs/paintings/flower_oilpainted.jpg" width="40%">
+<img src="../../../figs/paintings/flower.jpg" width="40%"> <img src="../../../figs/paintings/flower_oilpainted.jpg" width="40%">
