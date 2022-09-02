@@ -20,10 +20,11 @@ args = parser.parse_args()
 def read_file(filename):
     return cv2.imread(filename)
 
-def save_out_cartoon_image(cartoon, filename=args.img_path, output_dir=args.output_dir):
+def save_out_cartoon_image(cartoon, filename=args.img_path, output_dir=args.output_dir, line_size=args.line_size, blur_value=args.blur_value, k=args.total_color):
     output_dir = output_dir if output_dir is not None and output_dir[-1]=="/" else output_dir + "/"
     basename = filename.split("/")[-1].split(".")[0]
-    filename = output_dir + basename + "_cartoonified.png"
+    filename_addon_params = f"_line_size_{line_size}_blur_value_{blur_value}_total_color_{k}_"
+    filename = output_dir + basename + filename_addon_params + "_cartoonified.png"
     cv2.imwrite(filename, cartoon)
 
 def edge_mask(img, line_size=args.line_size, blur_value=args.blur_value):
