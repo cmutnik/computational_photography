@@ -36,18 +36,18 @@ a21 b22
 
 ----
 ## Original Images ##
-![](a.JPG)<br>
-![](b.JPG)
+![](./figs/a.JPG)<br>
+![](./figs/b.JPG)
 
 
 ----
 ## Vertically Sliced ##
-![](ab100_runall.jpg)
+![](./figs/ab100_runall.jpg)
 
 
 ----
 ## Tile Mosaic ##
-![](ab100_ba100_runall.jpg)<br>
+![](./figs/ab100_ba100_runall.jpg)<br>
 Steps:
 - vertical time slice N images, starting with file [`a.JPG`](./figs/a.JPG)
 - vertical time slice N images, starting with file [`b.JPG`](./figs/b.JPG)
