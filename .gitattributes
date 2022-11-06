@@ -5,6 +5,7 @@
 # *.txt linguist-language=Text
 
 *.ipynb linguist-detectable=false
+*.txt linguist-detectable=false
 *.py linguist-detectable=true
-*.txt linguist-detectable=true
+*.md linguist-detectable=true
 *.sh linguist-detectable=true
