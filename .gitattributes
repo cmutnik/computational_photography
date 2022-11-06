@@ -1,12 +1,13 @@
 # Example of a `.gitattributes` file which reclassifies `.ipynb` files as Python:
-# *.ipynb linguist-language=Python
-# *.py linguist-language=Python
-# *.sh linguist-language=Bash
-*.md linguist-detectable=true
-*.java linguist-detectable=true
-*.js linguist-detectable=true
-*.html linguist-detectable=true
-*.xml linguist-detectable=true
-*.ipynb linguist-detectable=false
-*.py linguist-detectable=true
-*.txt linguist-detectable=true
+*.ipynb linguist-language=Python
+*.py linguist-language=Python
+*.sh linguist-language=Bash
+*.txt linguist-language=Text
+# *.md linguist-detectable=true
+# *.java linguist-detectable=true
+# *.js linguist-detectable=true
+# *.html linguist-detectable=true
+# *.xml linguist-detectable=true
+# *.ipynb linguist-detectable=false
+# *.py linguist-detectable=true
+# *.txt linguist-detectable=true
