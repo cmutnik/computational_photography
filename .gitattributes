@@ -7,6 +7,6 @@
 *.js linguist-detectable=true
 *.html linguist-detectable=true
 *.xml linguist-detectable=true
-*.ipynb linguist-detectable=true
+*.ipynb linguist-detectable=false
 *.py linguist-detectable=true
 *.txt linguist-detectable=true
