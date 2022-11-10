@@ -16,10 +16,13 @@ Once the model is stored locally, rerun the script by following steps 2 and 3 ab
 
 ----
 ## Example ##
-If the input image is selected to be:
+The following are paired input and outputs:
 
 ![](../figs/paintings/flower.jpg)
-
-The resulting output will be:
-
 ![](../figs/removed_backgrounds/no_bkgd.png)
+
+![](../figs/paintings/flower_oilpainted.jpg)
+![](../figs/removed_backgrounds/flower_oilpainted.png)
+
+![](../figs/time_slice_figs/ab100_runall.jpg)
+![](../figs/removed_backgrounds/timeslice_ab100_runall.png)
