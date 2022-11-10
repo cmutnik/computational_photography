@@ -31,3 +31,7 @@ This will serve as a repository for:
 > [`zoom_virtual_backgrounds/`](./zoom_virtual_backgrounds/): Python scripts for modifying images to fit requirements of zoom virtual backgrounds.
 
 This repo in not complete.  It is serving as a backup during computer migration.  Please contact me with any questions.  All codes should be completed (with documentation), in the future.
+
+----
+### Check Out ###
+1. [openvino models and notebooks](https://github.com/openvinotoolkit/openvino_notebooks/tree/main/notebooks)
