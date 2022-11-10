@@ -15,7 +15,7 @@ If the script errors out, you can download the model from [here.](https://drive.
 Once the model is stored locally, rerun the script by following steps 2 and 3 above.
 
 ----
-## Example ##
+## Examples ##
 The following are paired input and outputs:
 
 ![](../figs/paintings/flower.jpg)
@@ -28,12 +28,6 @@ The following are paired input and outputs:
 
 <img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/IMG_3477_1_no_bkgd.png" alt="drawing" width="250"/>
 
-<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/zoom_virtual_backgrounds/IMG_3477_1_no_bkgd_resized.png" alt="drawing" width="250"/>
-
-<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/zoom_virtual_backgrounds/IMG_3477_1_no_bkgd_resized_resized.png" alt="drawing" width="250"/>
-
-<img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd.png" alt="drawing" width="250"/>
+<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/IMG_3477_1_no_bkgd_resized.png" alt="drawing" width="250"/>
 
 <img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized.png" alt="drawing" width="250"/>
-
-<img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized_resized.png" alt="drawing" width="250"/>
