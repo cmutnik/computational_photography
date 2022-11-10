@@ -18,11 +18,15 @@ Once the model is stored locally, rerun the script by following steps 2 and 3 ab
 ## Example ##
 The following are paired input and outputs:
 
+<img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="350"/><img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="350"/>
+
 ![](../figs/paintings/flower.jpg)
 ![](../figs/removed_backgrounds/no_bkgd.png)
+
+<img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="300"/><img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="300"/>
 
 ![](../figs/paintings/flower_oilpainted.jpg)
 ![](../figs/removed_backgrounds/flower_oilpainted.png)
 
 
-<img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="400"/><img src="../figs/removed_backgrounds/timeslice_ab100_runall.png" alt="drawing" width="500"/>
+<img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/timeslice_ab100_runall.png" alt="drawing" width="250"/>
