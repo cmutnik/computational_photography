@@ -18,6 +18,8 @@ This will serve as a repository for:
 >> [`apply_GANs/`](./machine_learning/apply_GANs/) Apply GANs to manipulate images based on trained models.<br>
 >> [`paintings_from_images/`](./machine_learning/paintings_from_images/): Various methods of turning photographs into paintings.
 
+> [`remove_backgrounds/`](./remove_backgrounds/): Using `u2net` model to remove backgrounds from images.
+
 > [`resize_image/`](./resize_image/): Python script for resizing input images.
 
 > [`time_slice/`](./time_slice/): (Outdated and incomplete dir.)
