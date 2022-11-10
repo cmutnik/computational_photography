@@ -24,5 +24,5 @@ The following are paired input and outputs:
 ![](../figs/paintings/flower_oilpainted.jpg)
 ![](../figs/removed_backgrounds/flower_oilpainted.png)
 
-![](../figs/time_slice_figs/ab100_runall.jpg)
+![](../time_slicing/figs/ab100_runall.jpg)
 ![](../figs/removed_backgrounds/timeslice_ab100_runall.png)
