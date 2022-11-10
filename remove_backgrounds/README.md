@@ -18,12 +18,12 @@ Once the model is stored locally, rerun the script by following steps 2 and 3 ab
 ## Examples ##
 The following are paired input and outputs:
 
+<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/IMG_3477_1_no_bkgd.png" alt="drawing" width="250"/>
+
 ![](../figs/paintings/flower.jpg)
 ![](../figs/removed_backgrounds/no_bkgd.png)
 
 ![](../figs/paintings/flower_oilpainted.jpg)
 ![](../figs/removed_backgrounds/flower_oilpainted.png)
-
-<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/IMG_3477_1_no_bkgd.png" alt="drawing" width="250"/>
 
 <img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized.png" alt="drawing" width="250"/>
