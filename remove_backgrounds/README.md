@@ -26,23 +26,14 @@ The following are paired input and outputs:
 
 <img src="../time_slicing/figs/ab100_runall.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/timeslice_ab100_runall.png" alt="drawing" width="250"/>
 
-![](../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg)
-![](../figs/removed_backgrounds/IMG_3477_1_no_bkgd.png)
+<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/IMG_3477_1_no_bkgd.png" alt="drawing" width="250"/>
 
-![](../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg)
-![](../figs/zoom_virtual_backgrounds/IMG_3477_1_no_bkgd_resized.png)
+<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/zoom_virtual_backgrounds/IMG_3477_1_no_bkgd_resized.png" alt="drawing" width="250"/>
 
-![](../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg)
-![](../figs/zoom_virtual_backgrounds/IMG_3477_1_no_bkgd_resized_resized.png)
+<img src="../figs/zoom_virtual_backgrounds/IMG_3477_1.jpg" alt="drawing" width="250"/><img src="../figs/zoom_virtual_backgrounds/IMG_3477_1_no_bkgd_resized_resized.png" alt="drawing" width="250"/>
 
-![](../figs/image_stacking/first_stacked_image.JPG)
-![](../figs/removed_backgrounds/first_stacked_image_no_bkgd.png)
+<img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd.png" alt="drawing" width="250"/>
 
-![](../figs/image_stacking/first_stacked_image.JPG)
-![](../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized.png)
+<img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized.png" alt="drawing" width="250"/>
 
-![](../figs/image_stacking/first_stacked_image.JPG)
-![](../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized_resized.png)
-
-
-
+<img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized_resized.png" alt="drawing" width="250"/>
