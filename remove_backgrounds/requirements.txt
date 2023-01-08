@@ -1,0 +1,4 @@
+rembg
+easygui
+# rembg==2.0.25
+# easygui==0.98.3
