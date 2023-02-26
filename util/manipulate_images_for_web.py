@@ -30,9 +30,14 @@ parser.add_argument("-r", "--rotate_image", type=int, default=False, metavar="in
                     help="bool option to rotate image by $-90\deg$ (default: False)")
 args = parser.parse_args()
 
-def make_output_dir_if_it_DNE(output_dir):
+def make_output_dir_if_it_dne(output_dir: str):
+    """Make passed in directory, if it doesn't already exist.
+    Args:
+        output_dir (str): Path to desired output dir.
+    """
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
+    return
 
 def get_list_of_input_images(filepath, excluded_extensions):
     return [file for file in glob(filepath) if file.split(".")[-1] not in excluded_extensions and not os.path.isdir(file)]
@@ -54,7 +59,7 @@ def rotate_image(image, degrees_to_rotate_by=-90):
 
 if __name__ == "__main__":
     output_extension = args.output_extension
-    make_output_dir_if_it_DNE(args.output_dir)
+    make_output_dir_if_it_dne(args.output_dir)
     filelist = get_list_of_input_images(filepath=args.img_path, excluded_extensions=args.excluded_extensions)
     for filename in tqdm(filelist):
         img = Image.open(filename)
