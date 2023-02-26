@@ -28,6 +28,7 @@ The following are paired input and outputs:
 
 <img src="../figs/image_stacking/first_stacked_image.JPG" alt="drawing" width="250"/><img src="../figs/removed_backgrounds/first_stacked_image_no_bkgd_resized.png" alt="drawing" width="250"/>
 
+
 ----
 ## References ##
 1. [Simple implementation](https://www.tomshardware.com/how-to/python-remove-image-backgrounds)
@@ -35,3 +36,4 @@ The following are paired input and outputs:
 3. [Replacing backgrounds.](https://docs.openvino.ai/latest/notebooks/205-vision-background-removal-with-output.html#visualize-results)
 4. [`u2net`](https://github.com/axinc-ai/ailia-models/tree/master/background_removal/u2net)
 5. [`u-2-net`](https://github.com/xuebinqin/U-2-Net)
+6. [`rembg`](https://github.com/danielgatis/rembg) is a `pip` installable tool.
