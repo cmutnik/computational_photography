@@ -16,7 +16,8 @@ This will serve as a repository for:
 
 > [`machine_learning/`](./machine_learning/) Implement machine learning as computational photography tools.
 >> [`apply_GANs/`](./machine_learning/apply_GANs/) Apply GANs to manipulate images based on trained models.<br>
->> [`paintings_from_images/`](./machine_learning/paintings_from_images/): Various methods of turning photographs into paintings.
+>> [`paintings_from_images/`](./machine_learning/paintings_from_images/): Various methods of turning photographs into paintings.<br>
+>> [practical-ml](https://github.com/eugenesiow/practical-ml) has a lot of great resources, examples, notebooks, and the like
 
 > [`remove_backgrounds/`](./remove_backgrounds/): Using `u2net` model to remove backgrounds from images.
 
