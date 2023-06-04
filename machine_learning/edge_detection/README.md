@@ -76,3 +76,10 @@ cv2.waitKey(0)
 <img src="../../figs/edge_detection/Canny_Edge_Detection.webp" width="25%">
 
 
+Rather than using a Gaussian blur, replace the image with a copy that was passed through [this anime GAN](https://huggingface.co/spaces/akhaliq/AnimeGANv2):
+```py
+img = cv2.imread(img, cv2.IMREAD_GRAYSCALE) 
+img_blur = cv2.imread("../../figs/edge_detection/IMG_3477_1_animeGANv2.png", cv2.IMREAD_GRAYSCALE)
+```
+<img src="../../figs/edge_detection/IMG_3477_1_animeGANv2.webp" width="25%">
+<img src="../../figs/edge_detection/IMG_3477_1_animeGANv2_Canny_Edge_Detection.webp" width="25%">
