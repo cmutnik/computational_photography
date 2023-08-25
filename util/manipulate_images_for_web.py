@@ -52,7 +52,11 @@ def get_final_output_name(filename, output_dir, output_extension):
     return final_output_name
 
 def save_resized_image(image, final_output_name, output_extension):
-    image.save(final_output_name, format=output_extension)
+    # Needed when running as: python manipulate_images_for_web.py -oe "jpg" 
+    try:
+        image.save(final_output_name, format=output_extension)
+    except:
+        image.save(final_output_name)
 
 def rotate_image(image, degrees_to_rotate_by=-90):
     return image.rotate(degrees_to_rotate_by, Image.NEAREST, expand = 1) 
